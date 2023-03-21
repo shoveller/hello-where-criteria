@@ -1,5 +1,5 @@
 import { collection, getFirestore, getDocs, where, query } from 'firebase/firestore'
-import {app} from "./app";
+import { app } from "./app";
 
 export const read = async ({ user_uid, category_uid } : { user_uid: string, category_uid: string }) => {
   // 앱을 생성
